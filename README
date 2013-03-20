@@ -1,0 +1,11 @@
+IRC bot posting text based on markov chains generated from random wikipedia articles.
+
+All files copyright (c) 2013 markfiend (AKA Mark Wolstenholme)
+Released under GNU GPL v3 http://www.gnu.org/licenses/gpl.html
+
+Except markov.py which I didn't write and is copied from 
+http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/
+
+NB the shebang line for all the python files is
+#!/usr/bin/python2
+This is because I'm running Arch Linux where python is a symlink to python3

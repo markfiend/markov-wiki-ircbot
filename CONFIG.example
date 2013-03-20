@@ -1,0 +1,13 @@
+[Main]
+; the credentials needed to connect to the IRC channel
+ip: 127.0.0.1
+port: 6667
+nick: Nickname
+chan: #channel
+pass: Pa55w0rd
+pings: 15
+; pings is the number of consecutive pings before the bot interjects in a silent channel
+[Prepends]
+; A list of snippets the bot may add at random to the beginning of a post
+a: This is interesting.
+b: Look at this!

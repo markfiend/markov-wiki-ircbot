@@ -63,7 +63,6 @@ class WikiBot(IRCBot):
             self.pingcounter += 1
         else:
             print line
-            self.pingcounter = 0
 
         if self.pingcounter >= self.PING:
             # send a message if the channel is too quiet
